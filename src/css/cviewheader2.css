@@ -129,3 +129,27 @@ table {
 }
 
 /*~~~~~css resetcode~~~~~*/
+
+#cviewheader2div1 {
+  width: 1113px;
+  padding: 0px 16px;
+  box-sizing: border-box;
+}
+
+#cviewheader2ul1 {
+  font-size: 16px;
+  color: #363636;
+}
+
+#cviewheader2ul2 {
+  font-size: 18px;
+  color: #000000;
+  margin: 8px 0px;
+}
+
+#cviewheader2ul3 {
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+  color: #282828;
+}

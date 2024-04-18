@@ -129,3 +129,56 @@ table {
 }
 
 /*~~~~~css resetcode~~~~~*/
+#creviewdiv {
+  width: 1046px;
+  height: 528px;
+  margin: 56px 0px 0px 0px;
+}
+
+#creviewh1 {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+#creviewdiv1 {
+  margin: 37px 0px 0px 30px;
+}
+
+.creviewdiv2 {
+  width: 1016px;
+  height: 85px;
+  margin: 8px 0px 0px 0px;
+  padding: 4px 33px 0px 26px;
+  box-sizing: border-box;
+  border-bottom: 1px solid #000000;
+}
+
+#creviewul1 {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 0px 26px 0px;
+
+  font-size: 14px;
+  color: #282828;
+}
+
+#creviewul2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+#creviewul2 > li:first-child {
+  font-size: 16px;
+  color: #000000;
+}
+
+#creviewul2 > li:last-child {
+  display: flex;
+  gap: 12px;
+}
+
+#creview-cnumber {
+  margin: 64px 0px 0px 0px;
+  display: flex;
+  justify-content: center;
+}

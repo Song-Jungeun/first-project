@@ -129,3 +129,11 @@ table {
 }
 
 /*~~~~~css resetcode~~~~~*/
+
+#button2-1 {
+  width: 96px;
+  height: 35px;
+  background-color: #fff;
+  border: 1px solid #ffa360;
+  letter-spacing: -1px;
+}

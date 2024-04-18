@@ -129,3 +129,41 @@ table {
 }
 
 /*~~~~~css resetcode~~~~~*/
+#creviewwritediv {
+  width: 1080px;
+  height: 233px;
+  margin: 32px 0px 0px 0px;
+  border-bottom: 1px solid #eeeeee;
+}
+
+#creviewwriteh1 {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+#creviewwritediv1 {
+  margin: 36px 0px 0px 0px;
+}
+
+#creviewwriteQuill {
+  width: 1080px;
+  height: 86px;
+  position: absolute;
+}
+
+#creviewwritebutton {
+  position: relative;
+  top: 86px;
+  left: 1026px;
+
+  width: 42px;
+  height: 30px;
+  border: 1px solid #d1b098;
+  background-color: #ffffff;
+  white-space: nowrap;
+  font-size: 18px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

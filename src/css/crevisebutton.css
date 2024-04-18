@@ -129,3 +129,16 @@ table {
 }
 
 /*~~~~~css resetcode~~~~~*/
+#crevisebutton {
+  width: 38px;
+  height: 29.3px;
+  background-color: #cb4646;
+  border: 1px solid #cb4646;
+
+  font-size: 16px;
+  color: #ffffff;
+  white-space: nowrap;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

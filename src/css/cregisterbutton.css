@@ -129,3 +129,19 @@ table {
 }
 
 /*~~~~~css resetcode~~~~~*/
+#cregisterbuttondiv {
+  display: flex;
+  justify-content: center;
+}
+
+#cregisterbutton {
+  width: 248px;
+  height: 63px;
+  border-radius: 32px;
+  border: 2px solid #d1b098;
+  background-color: #ffffff;
+  font-size: 28px;
+  font-weight: bold;
+  letter-spacing: 16px;
+  text-align: center;
+}

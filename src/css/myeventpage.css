@@ -129,3 +129,68 @@ table {
 }
 
 /*~~~~~css resetcode~~~~~*/
+#myeventmain {
+  width: 1140px;
+  height: 1160px;
+  margin: 0 auto;
+
+  padding: 88px 0px 0px 0px;
+  box-sizing: border-box;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#myeventh1 {
+  font-size: 32px;
+  font-weight: bold;
+  letter-spacing: 16px;
+  color: #363636;
+
+  text-align: center;
+
+  margin: 0px 0px 60px 0px;
+}
+
+#myeventsection2-1 {
+  width: 1120px;
+  height: 280px;
+  margin: 33px 0px 112px 0px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.myeventcevent {
+  width: 300px;
+  height: 280px;
+}
+
+#myeventcevent2 {
+  position: absolute;
+}
+
+#myevent1-1 {
+  width: 90px;
+  height: 40px;
+  background-color: #6d3f3f;
+
+  position: relative;
+  top: 120px;
+  left: 105px;
+
+  font-size: 20px;
+  font-weight: bold;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#myeventsection2-2 {
+  width: 1120px;
+  height: 280px;
+  margin: 0px 0px 116px 0px;
+  display: flex;
+  justify-content: space-between;
+}

@@ -129,3 +129,23 @@ table {
 }
 
 /*~~~~~css resetcode~~~~~*/
+#cinformationwriteselectmain {
+  width: 1112px;
+  height: 106px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#cinformationwriteselect1 {
+  width: 1112px;
+  height: 43px;
+  border: 1px solid #ff8c68;
+  box-sizing: border-box;
+}
+
+#cinformationwriteselect2-1 {
+  width: 548px;
+  height: 43px;
+  border: 1px solid #ff8c68;
+}

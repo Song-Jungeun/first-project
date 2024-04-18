@@ -1,0 +1,281 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/*~~~~~css resetcode~~~~~*/
+
+#signupmain {
+  width: 768px;
+  height: 1480px;
+  margin: 0 auto;
+
+  padding: 50px 0px 0px 0px;
+  box-sizing: border-box;
+}
+
+#signupdiv {
+  width: 768px;
+  height: 1374px;
+  border-radius: 8px;
+  border: 1px solid #d1b098;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#signup-h2 {
+  margin: 55px 0px 0px 0px;
+
+  font-size: 40px;
+  font-weight: bold;
+  color: #363636;
+  letter-spacing: 32px;
+}
+
+#signupform {
+  margin: 60px 0px 0px 0px;
+}
+
+#signupmainfrom > p {
+  font-size: 16px;
+  color: #363636;
+  margin: 0px 0px 8px 0px;
+}
+
+#form-name {
+  width: 148px;
+  height: 32px;
+  background-color: #fff7f1;
+  border: 1px solid #ffebdd;
+  margin: 8px 0px 24px 0px;
+}
+
+#form-date {
+  width: 361px;
+  height: 32px;
+  background-color: #fff7f1;
+  border: 1px solid #ffebdd;
+  margin: 8px 0px 24px 0px;
+}
+
+#form-tel {
+  width: 361px;
+  height: 32px;
+  background-color: #fff7f1;
+  border: 1px solid #ffebdd;
+  margin: 8px 0px 24px 0px;
+}
+
+#form-email {
+  width: 361px;
+  height: 32px;
+  background-color: #fff7f1;
+  border: 1px solid #ffebdd;
+  margin: 8px 0px 24px 0px;
+}
+
+#form-id {
+  width: 361px;
+  height: 32px;
+  background-color: #fff7f1;
+  border: 1px solid #ffebdd;
+  margin: 8px 24px 24px 0px;
+}
+
+#form-nickname {
+  width: 361px;
+  height: 32px;
+  background-color: #fff7f1;
+  border: 1px solid #ffebdd;
+  margin: 8px 24px 24px 0px;
+}
+
+#form-pw {
+  width: 361px;
+  height: 32px;
+  background-color: #fff7f1;
+  border: 1px solid #ffebdd;
+  margin: 8px 0px 24px 0px;
+}
+
+#agree > div {
+  width: 361px;
+  height: 90px;
+  background-color: #fff7f1;
+  border: 1px solid #ffebdd;
+  margin: 8px 0px 8px 0px;
+}
+
+#agreecheck {
+  margin: 0px 0px 32px 0px;
+}
+
+#agreecheckname {
+  font-size: 14px;
+  margin: 0px 0px 0px 8px;
+}
+
+#agree2 > div {
+  width: 361px;
+  height: 90px;
+  background-color: #fff7f1;
+  border: 1px solid #ffebdd;
+  margin: 8px 0px 8px 0px;
+}
+
+#agreecheck2 {
+  margin: 0px 0px 24px 0px;
+}
+
+#agreecheckname2 {
+  font-size: 14px;
+  margin: 0px 0px 0px 8px;
+}
+
+#signupbutton {
+  width: 248px;
+  height: 63px;
+  border-radius: 32px;
+  border: 2px solid #d1b098;
+  background-color: #ffffff;
+
+  font-size: 32px;
+  font-weight: bold;
+  letter-spacing: 24px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 0px 0px 24px;
+  box-sizing: border-box;
+  white-space: nowrap;
+
+  margin: 120px auto 0px auto;
+}

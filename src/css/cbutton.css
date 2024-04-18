@@ -129,3 +129,11 @@ table {
 }
 
 /*~~~~~css resetcode~~~~~*/
+#button1 {
+  width: 34px;
+  height: 25px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

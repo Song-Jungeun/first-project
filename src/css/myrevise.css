@@ -1,0 +1,289 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/*~~~~~css resetcode~~~~~*/
+
+#myrevisemain {
+  min-width: 1200px;
+  height: 1320px;
+
+  padding: 50px 0px 0px 0px;
+  box-sizing: border-box;
+}
+
+#myrevisemain > div {
+  width: 768px;
+  height: 1080px;
+  margin: 0 auto;
+  border-radius: 8px;
+  border: 1px solid #d1b098;
+}
+
+#myreviseh1 {
+  font-size: 40px;
+  letter-spacing: 32px;
+  font-weight: bold;
+  color: #363636;
+  text-align: center;
+  margin: 50px 0px 70px 0px;
+}
+
+#myreviseform {
+  margin: 60px 0px 0px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#myreviseform > p {
+  font-size: 16px;
+  color: #363636;
+  margin: 0px 0px 8px 0px;
+}
+
+#form-revisename {
+  width: 148px;
+  height: 32px;
+  background-color: #fff7f1;
+  border: 1px solid #ffebdd;
+  margin: 8px 0px 18px 0px;
+}
+
+#form-revisedate {
+  width: 361px;
+  height: 32px;
+  background-color: #fff7f1;
+  border: 1px solid #ffebdd;
+  margin: 8px 0px 18px 0px;
+}
+
+#form-revisetel {
+  width: 361px;
+  height: 32px;
+  background-color: #fff7f1;
+  border: 1px solid #ffebdd;
+  margin: 8px 0px 18px 0px;
+}
+
+#form-revisecertification {
+  width: 172px;
+  height: 48px;
+  background-color: #fed5b8;
+  border: 1px solid #fed5b8;
+  margin: 8px 0px 18px 0px;
+
+  font-size: 18px;
+  font-weight: bold;
+}
+
+#form-reviseemail {
+  width: 361px;
+  height: 32px;
+  background-color: #fff7f1;
+  border: 1px solid #ffebdd;
+  margin: 8px 0px 18px 0px;
+}
+
+#form-reviseid {
+  width: 361px;
+  height: 32px;
+  background-color: #fff7f1;
+  border: 1px solid #ffebdd;
+  margin: 8px 24px 18px 0px;
+}
+
+#reviseid-check {
+  width: 112px;
+  height: 32px;
+  background-color: #fed5b8;
+  border: 1px solid #fed5b8;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+#form-revisenickname {
+  width: 361px;
+  height: 32px;
+  background-color: #fff7f1;
+  border: 1px solid #ffebdd;
+  margin: 8px 24px 18px 0px;
+}
+
+#revisenickname-check {
+  width: 112px;
+  height: 32px;
+  background-color: #fed5b8;
+  border: 1px solid #fed5b8;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+#form-revisepw {
+  width: 361px;
+  height: 32px;
+  background-color: #fff7f1;
+  border: 1px solid #ffebdd;
+  margin: 8px 24px 18px 0px;
+}
+
+#revisepw-check {
+  width: 112px;
+  height: 32px;
+  background-color: #fed5b8;
+  border: 1px solid #fed5b8;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+#form-revisepwcheck {
+  width: 361px;
+  height: 32px;
+  background-color: #fff7f1;
+  border: 1px solid #ffebdd;
+  margin: 8px 0px 34px 0px;
+}
+
+#myrevicebutton {
+  width: 248px;
+  height: 63px;
+  border-radius: 32px;
+  border: 2px solid #d1b098;
+  background-color: #ffffff;
+
+  font-size: 24px;
+  font-weight: bold;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  white-space: nowrap;
+
+  margin: 50px auto 0px auto;
+}

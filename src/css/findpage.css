@@ -1,0 +1,300 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/*~~~~~css resetcode~~~~~*/
+
+#findpagemain {
+  min-width: 1200px;
+  width: 1144px;
+  height: 920px;
+  margin: 0 auto;
+
+  padding: 100px 0px 0px 0px;
+  box-sizing: border-box;
+}
+
+#findh1 {
+  font-size: 32px;
+  font-weight: bold;
+  color: #363636;
+  letter-spacing: 16px;
+  text-align: center;
+
+  margin: 0px 0px 82px 0px;
+}
+
+#findsection {
+  width: 1144px;
+  height: 515px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#findsection1 {
+  width: 539px;
+  height: 515px;
+  border-radius: 8px;
+  border: 1px solid #d1b098;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#findidform {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#findidform > p:first-child {
+  font-size: 24px;
+  font-weight: bold;
+  letter-spacing: 16px;
+  margin: 50px 0px 56px 0px;
+  text-align: center;
+}
+
+#findidform > ul {
+  font-size: 18px;
+  color: #363636;
+
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.find-check {
+  width: 122px;
+  height: 30px;
+  margin: 12px 0px 0px 102px;
+  border-radius: 4px;
+  background-color: #fed5b8;
+  border: 1px solid #fed5b8;
+
+  font-size: 16px;
+  color: #000000;
+}
+
+.find-name {
+  width: 148px;
+  height: 32px;
+  background-color: #fff7f1;
+  border-radius: 4px;
+  border: 1px solid #ffebdd;
+  margin: 0px 0px 0px 64px;
+}
+
+.find-tel {
+  width: 271px;
+  height: 32px;
+  background-color: #fff7f1;
+  border-radius: 4px;
+  border: 1px solid #ffebdd;
+  margin: 0px 0px 0px 30px;
+}
+
+#findidbutton {
+  width: 177px;
+  height: 55px;
+  background-color: #fed5bb;
+  border-radius: 4px;
+  border: 1px solid #fed5bb;
+
+  font-size: 18px;
+  font-weight: bold;
+  color: #000000;
+
+  margin: 50px 0px 46px 0px;
+}
+
+#find-id {
+  width: 438px;
+  height: 52px;
+  border-radius: 4px;
+  border: 2px solid #eeeeee;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+}
+
+#findsection2 {
+  width: 539px;
+  height: 515px;
+  border-radius: 8px;
+  border: 1px solid #d1b098;
+}
+
+#findsection2 {
+  width: 539px;
+  height: 515px;
+  border-radius: 8px;
+  border: 1px solid #d1b098;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#findidform2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#findidform2 > p:first-child {
+  font-size: 24px;
+  font-weight: bold;
+  letter-spacing: 16px;
+  margin: 50px 0px 56px 0px;
+  text-align: center;
+}
+
+#findidform2 > ul {
+  font-size: 18px;
+  color: #363636;
+
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+#findpwbutton {
+  width: 177px;
+  height: 55px;
+  background-color: #fed5bb;
+  border-radius: 4px;
+  border: 1px solid #fed5bb;
+
+  font-size: 18px;
+  font-weight: bold;
+  color: #000000;
+
+  margin: 50px 0px 46px 0px;
+}

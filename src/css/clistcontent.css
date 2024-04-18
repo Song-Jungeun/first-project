@@ -129,3 +129,68 @@ table {
 }
 
 /*~~~~~css resetcode~~~~~*/
+#clistcontentdiv1 {
+  width: 1081px;
+  height: 34px;
+  margin: 46px 0px 0px 0px;
+  border-bottom: 1px solid #000000;
+}
+
+#clistcontentul {
+  display: flex;
+  font-size: 16px;
+  font-weight: lighter;
+  margin: 0px 0px 15px 0px;
+  letter-spacing: -1px;
+}
+
+#clistcontentul > li:first-child {
+  margin: 0px 0px 0px 26px;
+}
+
+#clistcontentul > li:nth-child(2) {
+  margin: 0px 336px 0px 140px;
+}
+
+#clistcontentul > li:nth-child(4) {
+  margin: 0px 91px 0px 94px;
+}
+
+#clistcontentul > li:last-child {
+  margin: 0px 0px 0px 94px;
+}
+
+.clistcontentdiv2 {
+  width: 1081px;
+  height: 53px;
+  border-bottom: 1px solid #eeeeee;
+  display: flex;
+  align-items: center;
+}
+
+#clistcontentul1 {
+  display: flex;
+  font-size: 16px;
+}
+
+#clistcontentul1 > li:first-child {
+  margin: 0px 0px 0px 37px;
+  font-size: 14px;
+  color: #363636;
+}
+
+#clistcontentul1 > li:nth-child(2) {
+  margin: 0px 284px 0px 140px;
+}
+
+#clistcontentul1 > li:nth-child(4) {
+  margin: 0px 108px 0px 112px;
+  font-size: 14px;
+  color: #363636;
+}
+
+#clistcontentul1 > li:last-child {
+  margin: 0px 0px 0px 84px;
+  font-size: 14px;
+  color: #363636;
+}

@@ -1,0 +1,24 @@
+#numberdiv {
+  width: 272px;
+  height: 40px;
+}
+
+#numberul {
+  display: flex;
+  justify-content: space-between;
+}
+
+#numberul > li > button {
+  width: 40px;
+  height: 40px;
+  border-radius: 999px;
+  background-color: #ff9574;
+  border: 1px solid #ff9574;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 16px;
+  font-weight: bold;
+  color: #ffffff;
+}

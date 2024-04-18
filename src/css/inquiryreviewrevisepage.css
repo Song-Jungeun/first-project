@@ -129,3 +129,40 @@ table {
 }
 
 /*~~~~~css resetcode~~~~~*/
+#inquiryreviewrevisediv {
+  min-width: 1200px;
+  height: 960px;
+}
+
+#inquiryreviewrevisemain {
+  width: 1113px;
+  height: 592px;
+  margin: 0 auto;
+}
+
+#inquiryreviewreviseh1 {
+  font-size: 32px;
+  font-weight: bold;
+  letter-spacing: 16px;
+  text-align: center;
+  margin: 72px 0px 56px 0px;
+}
+
+#inquiryreviewrevisediv1 {
+  width: 1113px;
+  height: 156px;
+  border-bottom: 1px solid #000000;
+}
+
+#inquiryreviewrevisep {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0px 0px 38px 10px;
+}
+
+#inquiryreviewrevisediv2 {
+  width: 1113px;
+  margin: 108px 0px 0px 0px;
+  padding: 0px 0px 0px 10px;
+  box-sizing: border-box;
+}

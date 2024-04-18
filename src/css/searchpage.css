@@ -1,0 +1,214 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/*~~~~~css resetcode~~~~~*/
+#searchdiv {
+  min-width: 1200px;
+  height: 1000px;
+}
+
+#searchmain {
+  width: 1160px;
+  height: 703px;
+  border-radius: 12px;
+  border: 1px solid #d1b098;
+  margin: 205px auto 0px auto;
+}
+
+#searchdiv1 {
+  width: 1048px;
+  height: 80px;
+  margin: 88px 0px 0px 56px;
+  display: flex;
+  align-items: center;
+  background-color: #ffd6b8;
+  border: 1px solid #e8c2a6;
+}
+
+#searchdiv1-1 {
+  width: 992px;
+  height: 80px;
+  background-color: #ffd6b8;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  border: none;
+}
+
+#searchdiv1-2 {
+  width: 56px;
+  height: 56px;
+}
+
+#searchdiv2 {
+  width: 585px;
+  height: 323px;
+  margin: 81px 0px 0px 230px;
+  display: flex;
+}
+
+#searchdiv2-1 {
+  margin: 0px 115px 0px 0px;
+}
+
+#searchdiv2-1 > p {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0px 0px 23px 0px;
+}
+
+#searchdiv2-1 > ul {
+  display: flex;
+  gap: 21px;
+  font-size: 16px;
+  font-weight: lighter;
+  white-space: nowrap;
+}
+
+#searchdiv2-1 > ul > li > button {
+  background-color: #ffffff;
+  border: none;
+}
+
+#searchdiv2-2 > p {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0px 0px 24px 0px;
+}
+
+#searchdiv2-2 > ul {
+  font-size: 16px;
+  font-weight: lighter;
+  white-space: nowrap;
+}
+
+#searchdiv2-2 > ul > li {
+  margin: 0px 0px 21px 0px;
+}

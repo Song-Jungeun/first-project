@@ -129,3 +129,40 @@ table {
 }
 
 /*~~~~~css resetcode~~~~~*/
+#ceventwriteselecttmain {
+  width: 1112px;
+  height: 106px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#ceventwriteselectselect1 {
+  width: 1112px;
+  height: 43px;
+  border: 1px solid #ff8c68;
+  box-sizing: border-box;
+}
+
+#ceventwriteselect2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+#ceventwriteselect2-1 {
+  width: 548px;
+  height: 43px;
+  border: 1px solid #ff8c68;
+}
+
+#ceventwriteselectdate {
+  width: 264px;
+  height: 43px;
+  border: 1px solid #ff8c68;
+}
+
+#ceventwriteselectdate1 {
+  width: 264px;
+  height: 43px;
+  border: 1px solid #ff8c68;
+}

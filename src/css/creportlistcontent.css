@@ -129,3 +129,49 @@ table {
 }
 
 /*~~~~~css resetcode~~~~~*/
+#creportlistcontentdiv {
+  width: 1039px;
+  height: 53px;
+  border-bottom: 1px solid #eeeeee;
+  display: flex;
+  align-items: center;
+}
+
+#creportlistcontentul {
+  display: flex;
+  font-weight: lighter;
+  white-space: nowrap;
+}
+
+#creportlistcontentul > li:first-child {
+  margin: 0px 89px 0px 29px;
+  font-size: 14px;
+  color: #363636;
+}
+
+#creportlistcontentul > li:nth-child(2) {
+  font-size: 14px;
+}
+
+#creportlistcontentul > li:nth-child(3) {
+  margin: 0px 112px 0px 99px;
+  font-size: 18px;
+}
+
+#creportlistcontentul > li:nth-child(4) {
+  font-size: 16px;
+}
+
+#creportlistcontentul > li:nth-child(5) {
+  margin: 0px 78px 0px 136px;
+  font-size: 16px;
+}
+
+#creportlistcontentul > li:nth-child(6) {
+  font-size: 16px;
+}
+
+#creportlistcontentul > li:last-child {
+  margin: 0px 0px 0px 62px;
+  font-size: 16px;
+}

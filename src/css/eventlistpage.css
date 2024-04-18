@@ -129,3 +129,72 @@ table {
 }
 
 /*~~~~~css resetcode~~~~~*/
+#eventlistmain {
+  width: 1140px;
+  height: 1160px;
+  margin: 0 auto;
+
+  padding: 88px 0px 0px 0px;
+  box-sizing: border-box;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#eventlisth1 {
+  font-size: 32px;
+  font-weight: bold;
+  letter-spacing: 16px;
+  color: #363636;
+
+  text-align: center;
+
+  margin: 0px 0px 60px 0px;
+}
+
+#eventlistdiv2-1 {
+  width: 1120px;
+  height: 280px;
+  margin: 33px 0px 70px 0px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.eventlistclass {
+  width: 300px;
+  height: 280px;
+}
+
+#eventlistdiv2-1-1 {
+  position: absolute;
+}
+
+#eventlistcevent {
+  width: 90px;
+  height: 40px;
+  background-color: #6d3f3f;
+
+  position: relative;
+  top: 120px;
+  left: 105px;
+
+  font-size: 20px;
+  font-weight: bold;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#eventlistdiv2-2 {
+  width: 1120px;
+  height: 280px;
+  margin: 33px 0px 112px 0px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#eventlistdiv3 {
+  margin: -80px 12px 22px 0px;
+}

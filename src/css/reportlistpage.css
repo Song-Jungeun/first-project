@@ -129,3 +129,29 @@ table {
 }
 
 /*~~~~~css resetcode~~~~~*/
+#repoetlistdiv {
+  min-width: 1200px;
+  height: 1000px;
+}
+
+#repoetlisth1 {
+  font-size: 32px;
+  font-weight: bold;
+  letter-spacing: 16px;
+  text-align: center;
+  margin: 88px 0px 66px 0px;
+}
+
+#reportlistmain {
+  width: 1044px;
+  height: 655px;
+  margin: 0 auto;
+}
+
+#reportlistdiv1 {
+  width: 1039px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  margin: 52px 0px 0px 0px;
+}

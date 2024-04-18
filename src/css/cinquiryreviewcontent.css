@@ -129,3 +129,10 @@ table {
 }
 
 /*~~~~~css resetcode~~~~~*/
+#cinquiryreviewcontentdiv {
+  width: 1113px;
+  height: 160px;
+  border-bottom: 1px solid #000000;
+  padding: 16px 16px;
+  box-sizing: border-box;
+}

@@ -129,3 +129,14 @@ table {
 }
 
 /*~~~~~css resetcode~~~~~*/
+#creportcapturediv > p {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 38px 0px 16px 0px;
+}
+
+#creportcapturediv1 {
+  width: 1055px;
+  height: 200px;
+  margin: 0px 0px 48px 0px;
+}

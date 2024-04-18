@@ -129,3 +129,72 @@ table {
 }
 
 /*~~~~~css resetcode~~~~~*/
+#cdelete {
+  width: 1160px;
+  height: 703px;
+  border-radius: 12px;
+  border: 1px solid #d1b098;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#cdeletediv1 {
+  width: 1113px;
+  height: 88px;
+  border-bottom: 1px solid #000000;
+  margin: 113px 0px 0px 0px;
+  padding: 0px 16px;
+  box-sizing: border-box;
+}
+
+#cdeleteul1 > li:first-child {
+  font-size: 16px;
+  color: #363636;
+}
+
+#cdeleteul1 > li:last-child {
+  font-size: 18px;
+  color: #000000;
+  margin: 8px 0px;
+}
+
+#cdeleteul2 {
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+  color: #282828;
+}
+
+#cdeletediv2 {
+  width: 1113px;
+  padding: 0px 16px;
+  box-sizing: border-box;
+}
+
+#cdeletediv2 > p {
+  margin: 42px 0px 0px 0px;
+}
+
+#cedeletep {
+  margin: 149px 0px 0px 0px;
+}
+
+#cdeletediv3 {
+  display: flex;
+  gap: 32px;
+  margin: 40px 0px 0px 0px;
+}
+
+.cdeletebutton {
+  width: 200px;
+  height: 63px;
+  border: 2px solid #d1b098;
+  background-color: #ffffff;
+  font-size: 24px;
+  font-weight: bold;
+  color: #666565;
+  letter-spacing: 16px;
+  padding: 0px 0px 0px 16px;
+  box-sizing: border-box;
+}

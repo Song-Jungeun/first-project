@@ -129,3 +129,59 @@ table {
 }
 
 /*~~~~~css resetcode~~~~~*/
+#inquiryviewdiv {
+  min-width: 1200px;
+  height: 960px;
+}
+
+#inquiryviewmain {
+  width: 1113px;
+  height: 592px;
+  margin: 0px auto;
+  padding: 80px 0px 0px 0px;
+  box-sizing: border-box;
+}
+
+#inquiryviewdiv1 {
+  width: 1113px;
+  height: 84px;
+  border-bottom: 1px solid #000000;
+}
+
+#inquiryviewdiv2 {
+  width: 1109px;
+  height: 146px;
+}
+
+#inquiryviewp {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 20px 0px 19px 16px;
+}
+
+#inquiryviewdiv2-1 {
+  width: 1016px;
+  height: 85px;
+  margin: 0px 0px 0px 46px;
+  padding: 0px 34px 0px 26px;
+  box-sizing: border-box;
+  border-bottom: 1px solid #000000;
+}
+
+#inquiryviewul {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  margin: 0px 0px 26px 0px;
+}
+
+#inquiryviewul1 {
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+}
+
+#inquiryviewul1 > li {
+  display: flex;
+  gap: 11px;
+}

@@ -129,3 +129,22 @@ table {
 }
 
 /*~~~~~css resetcode~~~~~*/
+#Cselect2div {
+  margin: 0px 0px 14px 0px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+#Cselsect2select {
+  width: 347px;
+  height: 43px;
+  border: 1px solid #ffa360;
+  margin: 0px 10px 0px 0px;
+}
+
+#Cselsect2select1 {
+  width: 165px;
+  height: 43px;
+  border: 1px solid #ffa360;
+}

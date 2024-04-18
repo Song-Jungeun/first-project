@@ -129,3 +129,51 @@ table {
 }
 
 /*~~~~~css resetcode~~~~~*/
+#inquirywritediv {
+  min-width: 1200px;
+  height: 920px;
+}
+
+#inquirywritemain {
+  width: 925px;
+  height: 638px;
+  margin: 0 auto;
+}
+
+#inquirywriteh1 {
+  font-size: 32px;
+  letter-spacing: 16px;
+  font-weight: bold;
+
+  margin: 72px 0px 0px 0px;
+  text-align: center;
+}
+
+#inquitywriteform {
+  display: flex;
+  flex-direction: column;
+}
+
+#inquitywritetitle {
+  width: 925px;
+  height: 43px;
+  border: 1px solid #ff8c68;
+  margin: 49px 0px 24px 0px;
+  padding: 0px 10px;
+  box-sizing: border-box;
+}
+
+#inquitywrtecg {
+  width: 548px;
+  height: 43px;
+  border: 1px solid #ff8c68;
+  margin: 0px 0px 26px 0px;
+  padding: 0px 10px;
+  box-sizing: border-box;
+}
+
+#inquitywrtequill {
+  width: 925px;
+  height: 335px;
+  margin: 0px 0px 88px 0px;
+}

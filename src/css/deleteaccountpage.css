@@ -1,0 +1,225 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/*~~~~~css resetcode~~~~~*/
+#deleteaccountmain {
+  width: 407px;
+  height: 960px;
+
+  margin: 0 auto;
+
+  padding: 88px 0px 0px 0px;
+  box-sizing: border-box;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#deleteaccounth1 {
+  font-size: 32px;
+  letter-spacing: 16px;
+  font-weight: bold;
+
+  margin: 0px 0px 80px 0px;
+}
+
+#deleteaccountform > p {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0px 0px 16px 0px;
+}
+
+#deletaccount-reason {
+  width: 359px;
+  height: 161px;
+  background-color: #fff7f1;
+  border: 1px solid #ffebdd;
+  margin: 0px 0px 24px 0px;
+
+  padding: 10px 10px 10px 10px;
+  box-sizing: border-box;
+
+  resize: none;
+}
+
+#deletaccount-inform {
+  width: 359px;
+  height: 161px;
+  background-color: #fff7f1;
+  border: 1px solid #ffebdd;
+  margin: 0px 0px 24px 0px;
+
+  padding: 10px 10px 10px 10px;
+  box-sizing: border-box;
+}
+
+#deletaccount-pwcheck {
+  width: 361px;
+  height: 31px;
+  background-color: #fff7f1;
+  border: 1px solid #ffebdd;
+
+  padding: 10px 10px 10px 10px;
+  box-sizing: border-box;
+}
+
+#deleteaccount-chack {
+  margin: 48px auto 0px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#deleteaccount-checkname {
+  font-size: 14px;
+  margin: 0px 0px 0px 8px;
+}
+
+#deleteaccountbutton {
+  width: 248px;
+  height: 63px;
+  border-radius: 32px;
+  border: 2px solid #d1b098;
+  background-color: #ffffff;
+
+  font-size: 32px;
+  font-weight: bold;
+  letter-spacing: 24px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 0px 0px 24px;
+  box-sizing: border-box;
+  white-space: nowrap;
+
+  margin: 26px auto 0px auto;
+}

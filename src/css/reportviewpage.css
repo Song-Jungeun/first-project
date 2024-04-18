@@ -1,0 +1,236 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/*~~~~~css resetcode~~~~~*/
+#reportviewdiv {
+  min-width: 1200px;
+  height: 1800px;
+}
+
+#reportviewh1 {
+  font-size: 32px;
+  font-weight: bold;
+  letter-spacing: 16px;
+  margin: 88px 0px 0px 0px;
+  text-align: center;
+}
+
+#reportviewmain {
+  width: 1055px;
+  height: 1331px;
+  margin: 0 auto;
+}
+
+#reportviewdiv1 > p {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 89px 0px 16px 0px;
+}
+
+#reportviewdiv1-1 {
+  width: 1055px;
+  height: 238px;
+  border: 1px solid #ffc4b1;
+  padding: 6px 0px 0px 10px;
+  box-sizing: border-box;
+}
+
+#reportviewdiv1-1 > p:nth-child(2) {
+  font-size: 18px;
+  margin: 8px 0px;
+}
+
+#reportviewdiv1-2 {
+  width: 1016px;
+  height: 85px;
+  display: flex;
+  flex-direction: column;
+  margin: 61px 0px 0px 23px;
+  border-bottom: 1px solid #000000;
+}
+
+#reportviewul {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 14px;
+  margin: 0px 33px 26px 26px;
+}
+
+#reportviewdiv1-2 > p {
+  margin: 0px 0px 0px 26px;
+}
+
+#reportviewdiv2 > p {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0px 0px 16px 0px;
+}
+
+#reportviewdiv2-1 {
+  width: 1055px;
+  height: 200px;
+  background-color: #fff7f1;
+  border: 1px solid #ffebdd;
+}
+
+#reportviewdiv3 > p {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 48px 0px 16px 0px;
+}
+
+#reportviewdiv3-1 {
+  width: 1055px;
+  height: 200px;
+  background-color: #fff7f1;
+  border: 1px solid #ffebdd;
+}
+
+#reportviewdiv4 {
+  width: 1055px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 144px 0px 0px 0px;
+}
+
+#reportviewdiv4-1 {
+  width: 248px;
+  height: 63px;
+  border: 1px solid #d1b098;
+  background-color: #ffffff;
+  border-radius: 32px;
+  font-size: 24px;
+  font-weight: bold;
+  letter-spacing: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

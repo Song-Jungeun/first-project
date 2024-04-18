@@ -1,0 +1,248 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/*~~~~~css resetcode~~~~~*/
+#cpostlistcontentdiv {
+  width: 1111px;
+  height: 479px;
+  margin: 56px 0px 0px 0px;
+}
+
+#cpostlistcontentdiv1 {
+  width: 1111px;
+  height: 33px;
+  border-bottom: 1px solid #000000;
+}
+
+#cpostlistcontentul {
+  display: flex;
+  font-size: 18px;
+  letter-spacing: -1px;
+}
+
+#cpostlistcontentul > li:first-child {
+  margin: 0px 61px 0px 39px;
+}
+
+#cpostlistcontentul > li:nth-child(2) {
+  margin: 0px 100px 0px 0px;
+}
+
+#cpostlistcontentul > li:nth-child(3) {
+  margin: 0px 245px 0px 0px;
+}
+
+#cpostlistcontentul > li:nth-child(4) {
+  margin: 0px 76px 0px 0px;
+}
+
+#cpostlistcontentul > li:nth-child(5) {
+  margin: 0px 85px 0px 0px;
+}
+
+#cpostlistcontentul > li:nth-child(6) {
+  margin: 0px 89px 0px 0px;
+}
+
+.cpostlistcontentdiv2 {
+  width: 1111px;
+  height: 52px;
+  border-bottom: 1px solid #eeeeee;
+  display: flex;
+  align-items: center;
+}
+
+#cpostlistcontentul2 {
+  display: flex;
+}
+
+#cpostlistcontentul2 > li:first-child {
+  width: 18px;
+  height: 17px;
+  margin: 0px 42px 0px 42px;
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#cpostlistcontentul2 > li:nth-child(2) {
+  width: 118px;
+  height: 19px;
+  margin: 0px 50px 0px 0px;
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#cpostlistcontentul2 > li:nth-child(3) {
+  width: 276px;
+  height: 19px;
+  margin: 0px 72px 0px 0px;
+  font-size: 16px;
+}
+
+#cpostlistcontentul2 > li:nth-child(4) {
+  width: 18px;
+  height: 17px;
+  margin: 0px 122px 0px 0px;
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#cpostlistcontentul2 > li:nth-child(5) {
+  width: 18px;
+  height: 17px;
+  margin: 0px 118px 0px 0px;
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#cpostlistcontentul2 > li:nth-child(6) {
+  width: 18px;
+  height: 17px;
+  margin: 0px 96px 0px 0px;
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#cpostlistcontentul2 > li:last-child {
+  width: 100px;
+  height: 17px;
+  font-size: 14px;
+  white-space: nowrap;
+}

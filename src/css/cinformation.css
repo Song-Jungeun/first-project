@@ -129,3 +129,8 @@ table {
 }
 
 /*~~~~~css resetcode~~~~~*/
+
+#information {
+  width: 226px;
+  height: 308px;
+}

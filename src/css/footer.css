@@ -129,3 +129,10 @@ table {
 }
 
 /*~~~~~css resetcode~~~~~*/
+
+footer {
+  width: 100%;
+  min-width: 1200px;
+  height: 80px;
+  background-color: #ffa25e;
+}

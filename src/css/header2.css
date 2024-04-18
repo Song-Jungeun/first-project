@@ -1,0 +1,214 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/*~~~~~css resetcode~~~~~*/
+
+header2 {
+  width: 100%;
+  min-width: 1200px;
+  height: 80px;
+  background-color: #ffa25e;
+
+  display: flex;
+}
+
+#h2div {
+  width: 1200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0px auto 0px auto;
+}
+
+#h2div > ul {
+  display: flex;
+  font-size: 20px;
+  color: #ffffff;
+  align-items: center;
+  margin: 4px 0px 0px 0px;
+  white-space: nowrap;
+}
+
+#h2div > ul:first-child {
+  font-weight: bold;
+}
+
+#main-logo {
+  width: 72px;
+  height: 72px;
+  margin: 0px 72px 0px 0px;
+}
+
+#h2div > ul > li:hover {
+  color: #be4f00;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#h2div > ul:first-child > li:not(:first-child) {
+  margin: 0px 56px 0px 0px;
+}
+
+#h2div > ul:last-child {
+  font-size: 16px;
+}
+
+#h2div > ul:last-child > li > p {
+  border-right: 1px solid #ffffff;
+}
+
+#h2div > ul:last-child > li > p:last-child {
+  padding: 0px 16px 0px 16px;
+  box-sizing: border-box;
+}
+
+#h2search {
+  width: 180px;
+  height: 40px;
+  background-color: #ffd6b8;
+  margin: 0px 0px 0px 8px;
+  position: relative;
+}
+
+#h2search:hover {
+  border: 2px solid #be4f00;
+}
+
+#h2search1 {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  top: 8px;
+  right: 8px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}

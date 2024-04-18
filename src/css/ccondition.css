@@ -129,3 +129,18 @@ table {
 }
 
 /*~~~~~css resetcode~~~~~*/
+#cconditionul {
+  display: flex;
+  gap: 10px;
+  margin: 28px 0px 0px 0px;
+}
+
+#cconditionul > li {
+  width: 96px;
+  height: 35px;
+  border: 1px solid #ff6b00;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

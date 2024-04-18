@@ -1,0 +1,88 @@
+#postlistdiv {
+  min-width: 1200px;
+  height: 1157px;
+}
+
+#postlistmain {
+  width: 1111px;
+  height: 850px;
+  margin: 0 auto;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  padding: 88px 0px 0px 0px;
+  box-sizing: border-box;
+}
+
+#postlisth1 {
+  font-size: 32px;
+  font-weight: bold;
+  letter-spacing: 16px;
+
+  margin: 0px 0px 66px 0px;
+}
+
+#postlistdiv1 {
+  width: 1111px;
+  padding: 0px 4px 0px 0px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: flex-end;
+}
+
+#postlistdiv2 {
+  width: 1111px;
+  padding: 0px 4px 0px 0px;
+  box-sizing: border-box;
+}
+
+#postlistdiv3 {
+  width: 1111px;
+  padding: 0px 56px 0px 26px;
+  box-sizing: border-box;
+}
+
+#postlistcpostbotton {
+  width: 1111px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.pagination {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  justify-content: center;
+}
+
+.pagination li {
+  margin: 0 5px;
+}
+
+.pagination li a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  color: #000;
+  text-decoration: none;
+  border-radius: 50%;
+  background-color: #ff9574;
+  border: 1px solid #ff9574;
+}
+
+.pagination li.active a {
+  background-color: #d0481f;
+  color: #fff;
+}
+
+.pagination li a:hover {
+  cursor: pointer;
+}
+
+.pagination li.break {
+  display: none;
+}

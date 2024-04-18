@@ -129,3 +129,31 @@ table {
 }
 
 /*~~~~~css resetcode~~~~~*/
+#ccontent {
+  width: 1113px;
+  height: 648px;
+
+  padding: 28px 18px;
+  box-sizing: border-box;
+
+  border-bottom: 1px solid #000000;
+}
+
+#ccontentdiv1 {
+  width: 1113px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+#ccontentdiv1 > img {
+  width: 24px;
+  height: 24px;
+  margin: 20px 16px 0px 0px;
+}
+
+#ccontentul1 {
+  width: 1113px;
+  display: flex;
+  justify-content: center;
+  gap: 56px;
+}
